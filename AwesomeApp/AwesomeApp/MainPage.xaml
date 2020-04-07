@@ -65,7 +65,7 @@
        HorizontalOptions="Center" />
     </StackLayout>-->
 
-    <StackLayout Margin="20,35,20,20">
+    <!--<StackLayout Margin="20,35,20,20">
         <Label TextColor="Gray"
        FontSize="Medium">
             <Label.FormattedText>
@@ -78,6 +78,18 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+    </StackLayout>-->
+
+    <StackLayout Margin="20,35,20,20">
+        <Button Text="Click me"
+        Clicked="OnButtonClicked"
+        TextColor="Blue"
+        BackgroundColor="Aqua"
+        BorderColor="Red"
+        BorderWidth="5"
+        CornerRadius="5"
+        WidthRequest="150"
+        HeightRequest="75" />
     </StackLayout>
 
 

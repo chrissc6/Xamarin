@@ -24,5 +24,10 @@ namespace AwesomeApp
             count++;
             ((Button)sender).Text = $"You clicked {count} times.";
         }
+
+        void OnButtonClicked(object sender, EventArgs e)
+        {
+            (sender as Button).Text = "Click me again!";
+        }
     }
 }
