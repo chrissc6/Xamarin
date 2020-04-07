@@ -191,7 +191,7 @@
           ItemTapped="OnListViewItemTapped" />
     </StackLayout>-->
 
-    <StackLayout Margin="20,35,20,20">
+    <!--<StackLayout Margin="20,35,20,20">
         <ListView ItemsSource="{Binding Monkeys}"
           HasUnevenRows="true"
           ItemSelected="OnListViewItemSelected"
@@ -225,6 +225,15 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+    </StackLayout>-->
+
+    <StackLayout Margin="20,35,20,20">
+        <Button Text="Display alert"
+                Clicked="OnDisplayAlertButtonClicked" />
+        <Button Text="Display alert question"
+                Clicked="OnDisplayAlertQuestionButtonClicked" />
+        <Button Text="Display action sheet"
+        Clicked="OnDisplayActionSheetButtonClicked" />
     </StackLayout>
 
 
