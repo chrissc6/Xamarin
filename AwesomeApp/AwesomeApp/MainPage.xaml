@@ -80,7 +80,7 @@
         </Label>
     </StackLayout>-->
 
-    <StackLayout Margin="20,35,20,20">
+    <!--<StackLayout Margin="20,35,20,20">
         <Button Text="Click me"
         Clicked="OnButtonClicked"
         TextColor="Blue"
@@ -90,7 +90,19 @@
         CornerRadius="5"
         WidthRequest="150"
         HeightRequest="75" />
-    </StackLayout>
+    </StackLayout>-->
+
+    <!--<StackLayout Margin="20,35,20,20">
+        <Entry Placeholder="Enter text"
+       TextChanged="OnEntryTextChanged"
+       Completed="OnEntryCompleted" />
+    </StackLayout>-->
+
+    <Entry Placeholder="Enter password"
+       MaxLength="15"
+       IsSpellCheckEnabled="false"
+       IsTextPredictionEnabled="false"
+       IsPassword="true" />
 
 
 </ContentPage>
