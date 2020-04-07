@@ -111,12 +111,26 @@
         Completed="OnEditorCompleted" />
     </StackLayout>-->
 
-    <StackLayout Margin="20,35,20,20">
+    <!--<StackLayout Margin="20,35,20,20">
         <Editor Placeholder="Enter multi-line text here"
         AutoSize="TextChanges"
         MaxLength="200"
         IsSpellCheckEnabled="false"
         IsTextPredictionEnabled="false" />
+    </StackLayout>-->
+
+    <!--<StackLayout Margin="20,35,20,20">
+        <Image Source="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Papio_anubis_%28Serengeti%2C_2009%29.jpg/200px-Papio_anubis_%28Serengeti%2C_2009%29.jpg"
+       Aspect="Fill"
+       HeightRequest="{OnPlatform iOS=300, Android=250}"
+       WidthRequest="{OnPlatform iOS=300, Android=250}"
+       HorizontalOptions="Center" />
+    </StackLayout>-->
+
+    <StackLayout Margin="20,35,20,20">
+        <Image Source="XamarinLogo"
+       WidthRequest="{OnPlatform iOS=300, Android=250}"
+       HorizontalOptions="Center" />
     </StackLayout>
 
 
